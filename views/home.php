@@ -27,6 +27,7 @@ if(!defined("URL_BASE")) {
     <?php
     if (isset($_SESSION['email'])) : ?>
         <h2>Bienvenido, <?php echo $_SESSION['name']; ?>!</h2>
+        <a href="<?php echo URL_BASE; ?>/views/egreso.php">Ingresar préstamo (egreso) </a>
         <h4> <?php echo $_SESSION['email']; ?></h4>
         <p>Has iniciado sesión correctamente.</p>
         <p> Ahora puede realizar reservas y préstamos. </p>

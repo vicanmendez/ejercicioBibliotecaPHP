@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-image: url();
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    transform-style: preserve-3d;
+    position: relative;
+    background-image: url(http://imgfz.com/i/ptk2NTU.jpeg);
+}
+
+.form-box{
+    min-width: 400px;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.title{
+    text-align: center;
+    margin-top: 5vh;
+    color:  rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    }
+    
+    @media (min-width: 769px) {
+    /* Estilos para PC */
+    }
+    @media (max-width: 767.98px) {
+        .col-md-6 {
+        margin-bottom: 20px;
+        }
+        }
+
+.logo{
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+
+
+.label{
+    display: grid;
+    place-content: center;
+    margin: 10%;
+}
+
+/**/
+.box-user, .box-password{
+    display: flex;
+    padding: 2vh;
+}
+
+.button-box{
+    padding: 12px;
+    backdrop-filter: blur(0,5rem);
+}
+
+
+.user, .password{
+    min-width: 30vh;
+    min-height: 4vh;
+    font-family: serif;
+    background-color: rgb(206, 181, 111);
+}
+
+.button{
+    width: 20vh;
+    min-height: 5vh; 
+    background-color:  rgb(202, 200, 200);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 2vh;
+    margin: center;
+}
+
+.button:hover{
+    transition: 1s;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+
+.forgot-text a{
+    text-decoration: none;
+    color: rgb(12, 21, 13);
+}
